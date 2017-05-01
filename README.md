@@ -1,13 +1,11 @@
 #discordlfm - Discord Last FM 
 
-![Image](https://dl.dropboxusercontent.com/u/17487167/keep/1476569294.png)
-
 Sets your "game" to the last song played on your last.fm
 
 Usage:
 ```
   -g string
-        Game to set to if there hasn't been a new song for a while (default "Silcence")
+        Game to set to if there hasn't been a new song for a while (default "", clears playing status)
   -l string
         Last.fm api key
   -n int

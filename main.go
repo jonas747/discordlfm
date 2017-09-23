@@ -34,7 +34,7 @@ func init() {
 	flag.StringVar(&flagDiscordToken, "t", "", "Discord token")
 	flag.StringVar(&flagLFMAPIKey, "l", "", "Last.fm api key")
 	flag.StringVar(&flagLFMUsername, "u", "", "Last.fm username")
-	flag.StringVar(&flagNoSong, "g", "Silcence", "Game to set to if there hasn't been a new song for a while")
+	flag.StringVar(&flagNoSong, "g", "Silence", "Game to set to if there hasn't been a new song for a while")
 	flag.IntVar(&flagNoSongDuration, "n", 60*10, "Number of seconds without a new song for it to be considered nothing.")
 	flag.Parse()
 }
